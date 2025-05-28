@@ -1,6 +1,13 @@
 import React from 'react'
 import mobilelogin from '../assets/mobilelogin.png';
 import teslalogo from '../assets/teslalogo.png';
+import companylogo0 from '../assets/companylogo/clogo0.png';
+import companylogo1 from '../assets/companylogo/clogo1.png';
+import companylogo2 from '../assets/companylogo/clogo2.png';
+import companylogo3 from '../assets/companylogo/clogo3.png';
+import companylogo4 from '../assets/companylogo/clogo4.png';
+import companylogo5 from '../assets/companylogo/clogo5.png';
+import companylogo6 from '../assets/companylogo/clogo6.png';
 
 const Products = () => {
   return (
@@ -34,13 +41,13 @@ const Products = () => {
             <p className='text-base text-neutralGray'>British Dragon Boat Racing Association</p>
             <div>
               <div className='flex flex-wrap items-center gap-8 mt-8'>
-                <img src="src/assets/companylogo/clogo0.png" alt="" className='cursor-pointer'/>
-                <img src="src/assets/companylogo/clogo1.png" alt="" className='cursor-pointer'/>
-                <img src="src/assets/companylogo/clogo2.png" alt="" className='cursor-pointer'/>
-                <img src="src/assets/companylogo/clogo3.png" alt="" className='cursor-pointer'/>
-                <img src="src/assets/companylogo/clogo4.png" alt="" className='cursor-pointer'/>
-                <img src="src/assets/companylogo/clogo5.png" alt="" className='cursor-pointer'/>
-                <img src="src/assets/companylogo/clogo6.png" alt="" className='cursor-pointer'/>
+                <img src={companylogo0} alt="" className='cursor-pointer'/>
+                <img src={companylogo1} alt="" className='cursor-pointer'/>
+                <img src={companylogo2} alt="" className='cursor-pointer'/>
+                <img src={companylogo3} alt="" className='cursor-pointer'/>
+                <img src={companylogo4} alt="" className='cursor-pointer'/>
+                <img src={companylogo5} alt="" className='cursor-pointer'/>
+                <img src={companylogo6} alt="" className='cursor-pointer'/>
                 <div>
                   <a href="/" className='font-bold text-brandPrimary hover:text-neutral-700'>Meet all customers →</a>
                 </div>

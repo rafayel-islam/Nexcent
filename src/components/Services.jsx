@@ -1,4 +1,14 @@
 import React from 'react'
+import companylogo from '../assets/companylogo/clogo.png';
+import companylogo1 from '../assets/companylogo/clogo1.png';
+import companylogo2 from '../assets/companylogo/clogo2.png';
+import companylogo3 from '../assets/companylogo/clogo3.png';
+import companylogo4 from '../assets/companylogo/clogo4.png';
+import companylogo5 from '../assets/companylogo/clogo5.png';
+import companylogo6 from '../assets/companylogo/clogo6.png';
+import icon1 from '../assets/icon1.png';
+import icon2 from '../assets/icon2.png';
+import icon3 from '../assets/icon3.png';
 
 const Services = () => {
     const services = [
@@ -6,19 +16,19 @@ const Services = () => {
             id: 1,
             title: 'Membership Organisations',
             description: 'Our membership management software provides full automation of membership renewals and payments',
-            icon: '/src/assets/icon1.png'
+            icon: icon1
         },
         {
             id: 2,
             title: 'National Associations',
             description: 'Our membership management software provides full automation of membership renewals and payments',
-            icon: '/src/assets/icon2.png'
+            icon: icon2
         },
         {
             id: 3,
             title: 'Clubs And Groups',
             description: 'Our membership management software provides full automation of membership renewals and payments',
-            icon: '/src/assets/icon3.png'
+            icon: icon3
         },
     ]
 
@@ -30,13 +40,14 @@ const Services = () => {
 
                 {/* company logo hare */}
                 <div className='flex flex-wrap items-center justify-between gap-8 my-12'>
-                    <img src="/src/assets/companylogo/clogo.png" alt="companylogo" />
-                    <img src="/src/assets/companylogo/clogo1.png" alt="companylogo" />
-                    <img src="/src/assets/companylogo/clogo2.png" alt="companylogo" />
-                    <img src="/src/assets/companylogo/clogo3.png" alt="companylogo" />
-                    <img src="/src/assets/companylogo/clogo4.png" alt="companylogo" />
-                    <img src="/src/assets/companylogo/clogo5.png" alt="companylogo" />
-                    <img src="/src/assets/companylogo/clogo6.png" alt="companylogo" />
+                    <img src={companylogo} alt="companylogo" />
+                    <img src={companylogo1} alt="companylogo" />
+                    <img src={companylogo2} alt="companylogo" />
+                    <img src={companylogo3} alt="companylogo" />
+                    <img src={companylogo4} alt="companylogo" />
+                    <img src={companylogo5} alt="companylogo" />
+                    <img src={companylogo6} alt="companylogo" />
+                    
                 </div>
             </div>
             <div className='mx-auto mt-20 text-center md:w-1/2'>
