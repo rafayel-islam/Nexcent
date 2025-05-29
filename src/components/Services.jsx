@@ -50,7 +50,7 @@ const Services = () => {
                     
                 </div>
             </div>
-            <div className='mx-auto mt-20 text-center md:w-1/2'>
+            <div className='mx-auto mt-20 text-center md:w-1/2' id='service'>
                 <h1 className='mb-3 text-4xl font-semibold text-neutralDGray'>Manage your entire community in a single system</h1>
                 <p className='text-neutralGray'>Who is Nextcent suitable for?
                 </p>

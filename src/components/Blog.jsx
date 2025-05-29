@@ -21,7 +21,7 @@ const Blog = () => {
         }
     ];
     return (
-        <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14'>
+        <div className='px-4 mx-auto my-12 max-w-screen-2xl lg:px-14' id='testimonial'>
             <div className='mx-auto text-center md:w-1/2'>
                 <h1 className='mb-2 text-4xl font-semibold text-neutralDGray'>Caring is the new marketing</h1>
                 <p className='mx-auto mb-8 text-sm text-neutralGray md:w-3/4'>The Nexcent blog is the best place to read about the latest membership insights, trends and more. See who's joining the community, read about how our community are increasing their membership income and lot's more.​</p>

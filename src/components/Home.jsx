@@ -31,7 +31,7 @@ const slides = [
 
 const Home = () => {
   return (
-    <div className="bg-neutralSilver">
+    <div className="bg-neutralSilver" id='home'>
       <div className="px-4 mx-auto max-w-screen-2xl lg:px-14">
         <Carousel className="w-full mx-auto" autoplay>
           {slides.map((slide) => (

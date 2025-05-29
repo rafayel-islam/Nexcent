@@ -6,7 +6,7 @@ import clubimg from '../assets/stats/club.png';
 import paymentsimg from '../assets/stats/payments.png';
 const About = () => {
     return (
-        <div className='items-center'>
+        <div className='items-center' id='about'>
             {/* about text */}
             <div className='items-center px-4 mx-auto my-8 lg:px-14 max-w-screen-2xl'>
                 <div className='flex flex-col items-center justify-between gap-12 mx-auto md:w-11/12 md:flex-row'>

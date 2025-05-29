@@ -11,7 +11,7 @@ import companylogo6 from '../assets/companylogo/clogo6.png';
 
 const Products = () => {
   return (
-    <div>
+    <div id='product'>
       <div className='items-center px-4 mx-auto my-8 lg:px-14 max-w-screen-2xl'>
         <div className='flex flex-col items-center justify-between gap-12 mx-auto md:w-11/12 md:flex-row'>
           <div>
@@ -26,7 +26,7 @@ const Products = () => {
       </div>
 
       {/* company stats */}
-      <div className='px-4 py-16 mx-auto bg-neutralSilver lg:px-14 max-w-screen-2xl'>
+      <div className='px-4 py-16 mx-auto bg-neutralSilver lg:px-14 max-w-screen-2xl' id='faq'>
         <div className='flex flex-col items-center justify-between gap-8 mx-auto md:w-11/12 md:flex-row'>
           <div className='md:w-1/3'>
             <img src={teslalogo} alt="" />
