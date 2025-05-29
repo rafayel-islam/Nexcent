@@ -1,6 +1,7 @@
 import React from 'react';
 import banner1 from '../assets/banner.png';
 import { Carousel } from 'antd';
+import '../App.css';
 
 const slides = [
   {
@@ -33,7 +34,7 @@ const Home = () => {
   return (
     <div className="bg-neutralSilver" id='home'>
       <div className="px-4 mx-auto max-w-screen-2xl lg:px-14">
-        <Carousel className="w-full mx-auto" autoplay>
+        <Carousel className="w-full mx-auto" autoplay >
           {slides.map((slide) => (
             <div key={slide.id}>
               <div className="grid items-center w-full gap-10 py-20 place-items-center md:grid-cols-2 md:py-28">

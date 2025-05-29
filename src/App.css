@@ -11,3 +11,5 @@ header {
 .btn-primary {
  @apply py-2 text-white transition-all duration-300 rounded bg-brandPrimary px-7 hover:bg-neutralDGray ;
 }
+
+
