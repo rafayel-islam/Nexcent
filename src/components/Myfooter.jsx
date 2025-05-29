@@ -20,11 +20,20 @@ const Myfooter = () => {
                         All rights reserved
                     </p>
                     <div className="flex mt-4 space-x-4 text-xl">
-                        <FaInstagram className="cursor-pointer hover:text-white" />
-                        <FaFacebook className="cursor-pointer hover:text-white" />
-                        <FaTwitter className="cursor-pointer hover:text-white" />
-                        <FaYoutube className="cursor-pointer hover:text-white" />
+                        <a href="https://www.instagram.com/rafayel.islam/" target="_blank" rel="noopener noreferrer">
+                            <FaInstagram className="cursor-pointer hover:text-white" />
+                        </a>
+                        <a href="https://www.facebook.com/Eex.Raf" target="_blank" rel="noopener noreferrer">
+                            <FaFacebook className="cursor-pointer hover:text-white" />
+                        </a>
+                        <a href="https://x.com/Rafayelislam" target="_blank" rel="noopener noreferrer">
+                            <FaTwitter className="cursor-pointer hover:text-white" />
+                        </a>
+                        <a href="https://www.youtube.com/@RAFAYEL7Zero" target="_blank" rel="noopener noreferrer">
+                            <FaYoutube className="cursor-pointer hover:text-white" />
+                        </a>
                     </div>
+
                 </div>
 
                 {/* Company */}
